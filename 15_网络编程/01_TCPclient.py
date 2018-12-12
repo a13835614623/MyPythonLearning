@@ -13,6 +13,6 @@ s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect(('127.0.0.1',9999))
 # 接收数据
 
-s.send('I am zzk.')
+s.send('tcp:I am zzk.')
 # 关闭连接
 s.close()
