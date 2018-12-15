@@ -33,3 +33,6 @@ def select_table_users(select_statement):
     values = cursor.fetchall()
     return values
 print(select_table_users('select * from users'))
+
+#     执行INSERT等操作后要调用commit()提交事务；
+#     MySQL的SQL占位符是%s。
